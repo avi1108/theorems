@@ -40,7 +40,7 @@ public class WilsonsTheoremLong {
 
 	private static Long getFactorial(Long n) {
 
-		if (n == 1) {
+		if (n == 1 || n == 0) {
 			return 1L;
 		}
 		if (n == 2) {
