@@ -41,7 +41,7 @@ public class WilsonsTheorem {
 
 	private static BigInteger getFactorial(BigInteger n) {
 
-		if (n.longValue() == 1L) {
+		if (n.longValue() == 1L || n.longValue() == 0L) {
 			return BigInteger.ONE;
 		}
 		if (n.longValue() == 2L) {
